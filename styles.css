@@ -587,7 +587,7 @@ footer {
 
     .nav {
         position: fixed;
-        top: 75px;
+        top: 150px;
         width: 250px;
         background-color: #FFF;
         border-radius: 20px;
@@ -616,7 +616,7 @@ footer {
     }
 
     .row-main-title-logo {
-        top: 195px;
+        top: 240px;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
@@ -768,10 +768,7 @@ footer {
     }
 
     footer {
-        margin-top: 25px;
-        margin-bottom: 10px;
         gap: 25px;
-        height: 400px;
     }
 
     .icons-w-i-g-l {
