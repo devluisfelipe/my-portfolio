@@ -613,6 +613,7 @@ footer {
         opacity: 1;
         visibility: visible;
         z-index: 9999;
+        overflow: auto;
     }
 
     .nav ul {
