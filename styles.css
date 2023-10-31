@@ -630,12 +630,10 @@ footer {
         justify-content: center;
     }
 
-    .div-title-section-about h2, 
-    .div-title-section-projects h2,
-    .div-title-section-skills h2,
-    .div-title-section-curriculum h2,
-    .div-title-section-training h2,
-    .div-title-section-contact h2 {
+    .div-title-section-about,
+    .div-title-section-projects,
+    .div-title-section-skills,
+    .div-title-section-contact {
         margin-top: 110px;
     }
 
@@ -716,7 +714,8 @@ footer {
         height: 100px;
     }
 
-    .section-curriculum, .section-training {
+    .section-curriculum,
+    .section-training {
         display: flex;
         flex-direction: column;
     }

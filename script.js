@@ -4,7 +4,7 @@ const myLink = document.querySelectorAll(".js-link");
 function scrollPage() {
   mySection.forEach((item) => {
     let top = window.scrollY; // pegar a posição da barra de rolagem
-    let offSet = item.offsetTop; // pega a posição inicial de cada section
+    let offSet = item.offsetTop - 110; // pega a posição inicial de cada section
     let heightSection = item.offsetHeight; //pega a altura de cada section
     let idSection = item.getAttribute("id"); // pega o id de cada section
 
