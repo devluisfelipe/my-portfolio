@@ -550,7 +550,7 @@ footer {
 
 .paragraph-modal {
     font-size: 18px;
-    width: 75%;
+    width: 80%;
     font-weight: 400;
     color: #000000;
     margin-top: 15px;
@@ -597,6 +597,10 @@ footer {
         right: 0;
     }
 
+    header {
+        visibility: hidden;
+    }
+
     .nav {
         top: 0px;
         width: 250px;
@@ -614,6 +618,10 @@ footer {
         visibility: visible;
         z-index: 9999;
         overflow: auto;
+    }
+
+    .open-menu .header {
+        visibility: visible;
     }
 
     .nav ul {
@@ -821,7 +829,7 @@ footer {
 
     .modal-window-tec-info,
     .modal-window-systems-development {
-        top: -70px;
+        top: -60px;
         height: 100vh;
     }
 
@@ -874,7 +882,7 @@ footer {
 
     .modal {
         min-width: 393px;
-        max-height: 99%;
+        max-height: 95%;
         overflow: scroll;
     }
 }
