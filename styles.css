@@ -126,8 +126,6 @@ h2 {
 .div-title-section-about,
 .div-title-section-projects,
 .div-title-section-skills,
-.div-title-section-curriculum,
-.div-title-section-training,
 .div-title-section-contact {
     display: flex;
     justify-content: center;
@@ -136,6 +134,16 @@ h2 {
     align-items: center;
     margin-bottom: 70px;
     margin-top: 100px;
+}
+
+.div-title-section-curriculum,
+.div-title-section-training {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
 }
 
 h3 {
@@ -622,6 +630,15 @@ footer {
         justify-content: center;
     }
 
+    .div-title-section-about h2, 
+    .div-title-section-projects h2,
+    .div-title-section-skills h2,
+    .div-title-section-curriculum h2,
+    .div-title-section-training h2,
+    .div-title-section-contact h2 {
+        margin-top: 110px;
+    }
+
     h1 {
         font-size: 35px;
         text-align: center;
@@ -665,10 +682,6 @@ footer {
         text-align: center;
     }
 
-    .div-title-section-about {
-        margin-top: 0;
-    }
-
     .div-lists-section-about {
         flex-direction: column;
         gap: 10px;
@@ -706,10 +719,6 @@ footer {
     .section-curriculum, .section-training {
         display: flex;
         flex-direction: column;
-    }
-
-    .div-title-section-curriculum, .div-title-section-training {
-        margin-top: 0;
     }
 
     .btn-curriculum {
