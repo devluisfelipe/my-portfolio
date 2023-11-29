@@ -7,4 +7,8 @@ const menuProjects = [
     { name: 'Sistema para Escola', src: './assets/img-project-6.png' },
     { name: 'Conversor de Moedas', src: './assets/img-project-7.png' },
     { name: 'Sorteador de Números', src: './assets/img-project-8.png' },
+    { name: 'Paleta de Cores', src: './assets/img-project-9.png' },
+    { name: 'Conversor de Unidades', src: './assets/img-project-10.png' },
+    { name: 'Lista de Tarefas', src: './assets/img-project-11.png' },
+    { name: 'Descobre Signo com Meme', src: './assets/img-project-12.png' },
     ]
